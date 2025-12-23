@@ -1,6 +1,0 @@
-model Resolution {
-  id         String  @id @default(cuid())
-  quality    String  @unique
-  resolution Int[]
-  videos     Video[]
-}
