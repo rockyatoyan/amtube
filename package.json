@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "client:dev": "npx nx run @amtube/client:dev",
-    "server:dev": "npx nx run @amtube/client:dev-with-services",
+    "server:dev": "npx nx run @amtube/server:dev-with-services",
     "client:prod": "npx nx run @amtube/source:client:prod",
     "server:prod": "npx nx run @amtube/source:server:prod"
   },
